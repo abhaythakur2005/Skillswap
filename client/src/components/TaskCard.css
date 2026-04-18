@@ -1,0 +1,173 @@
+/**
+ * TaskCard Styles
+ */
+
+.task-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.task-card:hover {
+  border-color: #000;
+}
+
+/* Header */
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.task-info {
+  flex: 1;
+}
+
+.task-title {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.task-creator {
+  margin: 0.5rem 0 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Status Badge */
+.task-status {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Description */
+.task-description {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* Meta Information */
+.task-meta {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.task-category,
+.task-date {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* Skills */
+.task-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+/* Actions */
+.task-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-view {
+  background: #000;
+  color: white;
+}
+
+.btn-view:hover {
+  background: #333;
+}
+
+.btn-edit {
+  background: white;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-edit:hover {
+  background: #f0f0f0;
+}
+
+.btn-delete {
+  background: white;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-delete:hover {
+  background: #f0f0f0;
+}
+
+.btn-volunteer {
+  background: white;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-volunteer:hover {
+  background: #f0f0f0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .task-card {
+    padding: 1rem;
+  }
+
+  .task-header {
+    flex-direction: column;
+  }
+
+  .task-status {
+    align-self: flex-start;
+  }
+
+  .task-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .task-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,288 @@
+/**
+ * About Page Styles - Minimal Design
+ */
+
+.about {
+  width: 100%;
+  background: white;
+}
+
+/* Hero Section */
+.about-hero {
+  background: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.about-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* About Container */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* About Section */
+.about-section {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+  color: #000;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #666;
+  margin: 0 0 1.5rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Features Grid */
+.about-features .about-container {
+  padding: 0 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-item {
+  background: white;
+  padding: 2rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  border-color: #000;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  color: #000;
+}
+
+.feature-item p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tech-item {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tech-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #000;
+}
+
+.tech-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Creator Section */
+.about-creator {
+  background: white;
+}
+
+.creator-card {
+  background: white;
+  padding: 3rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.creator-info h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #000;
+}
+
+.creator-role {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 1.5rem 0;
+  font-weight: 500;
+}
+
+.creator-bio {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #666;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+/* Learning Goals */
+.learning-goals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.goal-item {
+  background: white;
+  padding: 2rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.goal-item:hover {
+  border-color: #000;
+}
+
+.goal-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.goal-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #000;
+}
+
+.goal-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* CTA Section */
+.about-cta {
+  background: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid #f0f0f0;
+}
+
+.about-cta h2 {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 0 0.8rem 0;
+}
+
+.about-cta p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 2rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-cta-about {
+  display: inline-block;
+  background: #000;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-cta-about:hover {
+  background: #222;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 3rem 1rem;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 2rem 1rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .creator-card {
+    padding: 2rem;
+  }
+
+  .creator-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .features-grid,
+  .tech-stack,
+  .learning-goals {
+    grid-template-columns: 1fr;
+  }
+}
