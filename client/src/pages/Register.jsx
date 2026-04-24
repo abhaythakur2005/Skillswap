@@ -60,15 +60,16 @@ const Register = () => {
 
   // Add skill
   const addSkill = (skill) => {
-    if (skill && !formData.skills.includes(skill)) {
-      setFormData({
-        ...formData,
-        skills: [...formData.skills, skill],
-      });
-      setSkillInput("");
-    }
-  };
+  const trimmedSkill = skill.trim();
 
+  if (trimmedSkill && !formData.skills.includes(trimmedSkill)) {
+    setFormData({
+      ...formData,
+      skills: [...formData.skills, trimmedSkill],
+    });
+    setSkillInput("");
+  }
+};
   // Remove skill
   const removeSkill = (skill) => {
     setFormData({

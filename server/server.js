@@ -9,6 +9,7 @@ import { errorHandler, notFoundHandler } from "./middleware/errorHandler.js";
 // Load environment variables
 dotenv.config();
 console.log("ENV CHECK:", process.env.MONGODB_URI);
+console.log("server file is active");
 
 // Initialize Express App
 const app = express();

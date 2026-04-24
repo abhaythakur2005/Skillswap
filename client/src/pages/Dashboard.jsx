@@ -271,7 +271,7 @@ const Dashboard = () => {
                   type="text"
                   value={skillInput}
                   onChange={(e) => setSkillInput(e.target.value)}
-                  onKeyPress={handleSkillKeyPress}
+                  onKeyDown={handleSkillKeyPress}
                   placeholder="Type a skill and press Enter"
                 />
                 <button

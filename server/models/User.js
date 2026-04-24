@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: [true, "Please provide a password"],
       minlength: 6,
-      select: false,
+      
     },
     skills: {
       type: [String],
