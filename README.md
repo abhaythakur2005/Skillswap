@@ -4,6 +4,15 @@
 
 **SkillSwap** is a student skill-sharing platform built with MERN Stack (MongoDB, Express, React, Node.js). Students can register, showcase their skills, post learning tasks, and connect with peers.
 
+## 🚀 Project Status
+All development work is available in the `dev` branch as instructed.
+
+## ✅ Features Completed
+- User Authentication (Login/Register)
+- Frontend-Backend Integration
+- Home Page UI
+- Dashboard with user info
+
 ### Key Features:
 - User authentication with JWT
 - Create and manage tasks
